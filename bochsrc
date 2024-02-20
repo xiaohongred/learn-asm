@@ -1,0 +1,5 @@
+display_library: sdl2
+
+boot: floppy # 设置软盘启动
+floppy_bootsig_check: disabled=0 # 打开自检
+floppya: type=1_44, 1_44="a.img", status=inserted, write_protected=0 # 使用1.44MB的3.5英寸软
